@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import profilePic from "../assets/profile.jpg";
+import React from 'react';
+import styled from 'styled-components';
+import profilePic from '../assets/profile.jpg';
 
 const HeroSection = styled.section`
   display: flex;
@@ -8,8 +8,12 @@ const HeroSection = styled.section`
   flex-direction: column;
   text-align: center;
   padding: 4em 1em;
-  background: linear-gradient(to right, #0077b6, #00b4d8);
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
   color: #fff;
+
+  @media(max-width: 768px) {
+    padding: 3em 1em;
+  }
 `;
 
 const ProfileImage = styled.img`
@@ -18,27 +22,47 @@ const ProfileImage = styled.img`
   border-radius: 50%;
   margin-bottom: 1em;
   object-fit: cover;
+
+  @media(max-width: 480px) {
+    width: 120px;
+    height: 120px;
+  }
 `;
 
 const Heading = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 0.5em;
+
+  @media(max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const SubHeading = styled.h2`
   font-weight: 400;
   margin-bottom: 1.5em;
+
+  @media(max-width: 768px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const CTA = styled.a`
   background: #fff;
-  color: #0077b6;
+  color: var(--primary-color);
   padding: 0.75em 1.5em;
   border-radius: 25px;
   font-weight: 700;
   font-size: 1rem;
+  transition: background 0.2s ease-in-out;
+
   &:hover {
     background: #e5e5e5;
+  }
+
+  @media(max-width: 480px) {
+    font-size: 0.9rem;
+    padding: 0.6em 1.2em;
   }
 `;
 

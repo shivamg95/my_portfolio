@@ -1,12 +1,12 @@
 import React from 'react';
 import GlobalStyles from './GlobalStyles';
 import Header from './components/Header';
-import Hero from './components/Hero.jsx';
+import Hero from './components/Hero';
 import About from './components/About';
-import Skills from './components/Skills.jsx';
-import Experience from './components/Experience.jsx';
-import Footer from './components/Footer.jsx';
-import Contact from './components/Contact.jsx';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
