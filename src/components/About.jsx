@@ -33,9 +33,9 @@ export default function About() {
     <AboutSection id="about">
       <Title>About Me</Title>
       <Paragraph>
-        I am a module lead front-end developer specializing in React. Over the past 7 years, I’ve worked
-        with global MNCs delivering high-quality, scalable web applications. I am passionate about creating 
-        efficient and elegant user interfaces, optimizing performance, and driving front-end architecture 
+        I am a module lead front-end developer specializing in React and other front end technologies. Over the past several years, I’ve worked
+        with global MNCs delivering high-quality, scalable, responsive web applications that converts. I am passionate about creating 
+        efficient, performant and elegant user interfaces, and driving front-end architecture 
         decisions. I am now open to taking on freelance contracts to apply my skills to diverse projects.
       </Paragraph>
     </AboutSection>

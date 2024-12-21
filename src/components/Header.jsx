@@ -58,7 +58,7 @@ export default function Header() {
   return (
     <>
       <HeaderContainer>
-        <Logo>YourName</Logo>
+        <Logo>Shivam Gupta</Logo>
         <Nav>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>

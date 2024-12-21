@@ -69,9 +69,9 @@ const CTA = styled.a`
 export default function Hero() {
   return (
     <HeroSection>
-      <ProfileImage src={profilePic} alt="Your Name" />
-      <Heading>Hello, I’m Your Name</Heading>
-      <SubHeading>React Developer | 7+ Years Experience</SubHeading>
+      <ProfileImage src={profilePic} alt="Shivam Gupta" />
+      <Heading>Hello, I’m Shivam Gupta</Heading>
+      <SubHeading>Lead React Developer | 6+ Years Experience</SubHeading>
       <CTA href="#contact">Get in Touch</CTA>
     </HeroSection>
   );

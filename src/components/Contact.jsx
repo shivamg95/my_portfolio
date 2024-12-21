@@ -61,13 +61,13 @@ export default function Contact() {
         Let’s connect!
       </ContactInfo>
       <Icons>
-        <a href="mailto:yourname@example.com" aria-label="Email">
+        <a href="mailto:shivamg95@gmail.com" aria-label="Email">
           <FaEnvelope />
         </a>
-        <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/shivamg95/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
           <FaLinkedin />
         </a>
-        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" aria-label="GitHub">
+        <a href="https://github.com/shivamg95" target="_blank" rel="noreferrer" aria-label="GitHub">
           <FaGithub />
         </a>
       </Icons>

@@ -79,21 +79,21 @@ const Description = styled.p`
 export default function Experience() {
   const experiences = [
     {
-      company: 'Global Tech Solutions',
+      company: '3Pillar Global',
       role: 'Module Lead, Front-End',
-      duration: 'Jan 2020 - Present',
+      duration: 'May 2022 - Present',
       description: 'Leading a team of React developers to build scalable, performance-oriented web applications for Fortune 500 clients. Involved in architecture decisions, code reviews, and mentoring junior developers.'
     },
     {
-      company: 'XYZ Innovations',
+      company: 'Rebel Foods (Faasos)',
       role: 'Senior Front-End Engineer',
-      duration: 'Jul 2017 - Dec 2019',
+      duration: '',
       description: 'Developed responsive, feature-rich SPA applications using React, Redux, and GraphQL. Implemented best practices in code quality, accessibility, and cross-browser compatibility.'
     },
     {
-      company: 'ABC Tech',
+      company: 'Global Logic (Hitachi Group)',
       role: 'Front-End Developer',
-      duration: 'Jan 2015 - Jun 2017',
+      duration: 'July 2018 - Jun 2021',
       description: 'Built modular UI components and integrated RESTful APIs. Optimized web performance and collaborated with UX designers to deliver intuitive user experiences.'
     }
   ];

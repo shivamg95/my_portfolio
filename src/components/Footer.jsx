@@ -19,7 +19,7 @@ const FooterText = styled.p`
 export default function Footer() {
   return (
     <FooterContainer>
-      <FooterText>&copy; {new Date().getFullYear()} Your Name. All Rights Reserved.</FooterText>
+      <FooterText>&copy; {new Date().getFullYear()} Shivam Gupta. All Rights Reserved.</FooterText>
     </FooterContainer>
   );
 }
